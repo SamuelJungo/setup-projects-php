@@ -1,84 +1,154 @@
-<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2  bg-white my-2" id="sidenav-main">
-    <div class="sidenav-header">
-      <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-      <a class="navbar-brand px-4 py-3 m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
-        <img src="../assets/img/logo-ct-dark.png" class="navbar-brand-img" width="26" height="26" alt="main_logo">
-        <span class="ms-1 text-sm text-dark">ERP</span>
-      </a>
-    </div>
-    <hr class="horizontal dark mt-0 mb-2">
-    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active bg-gradient-dark text-white" href="../inicial/inicial">
-            <i class="material-symbols-rounded opacity-5">dashboard</i>
-            <span class="nav-link-text ms-1">Painel</span>
+<aside class="sidebar-wrapper" data-simplebar="true">
+      <div class="sidebar-header">
+        <div>
+          <img src="../assets/images/logo-icon-2.png" class="logo-icon" alt="logo icon">
+        </div>
+        <div>
+          <h4 class="logo-text">Quiambote</h4>
+        </div>
+        <div class="toggle-icon ms-auto">
+          <ion-icon name="menu-sharp"></ion-icon>
+        </div>
+      </div>
+      <!--navigation-->
+      <ul class="metismenu" id="menu">
+        <li>
+          <a href="javascript:;" class="has-arrow">
+            <div class="parent-icon">
+              <ion-icon name="home-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Panel</div>
           </a>
+          <ul>
+            <li> <a href="index.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Inicial
+              </a>
+            </li>
+            <li> <a href="index2.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Alternate
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../customers/clientes">
-            <i class="material-symbols-rounded opacity-5">group_add</i>
-            <span class="nav-link-text ms-1">Clientes</span>
+        <li>
+          <a href="javascript:;" class="has-arrow">
+            <div class="parent-icon">
+              <ion-icon name="bag-handle-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Cliente</div>
           </a>
+          <ul>
+            <li><a href="ecommerce-shop-grid-view.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Listar
+              </a>
+            </li>
+            <li><a href="ecommerce-shop-list-view.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Product List
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../categorias/categorias">
-            <i class="material-symbols-rounded opacity-5">category</i>
-            <span class="nav-link-text ms-1">Categorias</span>
+        <li class="menu-label">Produtos/Serviço</li>
+        <li>
+          <a href="javascript:;" class="has-arrow">
+            <div class="parent-icon">
+              <ion-icon name="briefcase-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Produtos</div>
           </a>
+          <ul>
+            <li> <a href="widgets-static-widgets.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Listar
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../products/produtos.php">
-            <i class="material-symbols-rounded opacity-5">inventory_2</i>
-            <span class="nav-link-text ms-1">Produtos</span>
+
+        <li>
+          <a class="has-arrow" href="javascript:;">
+            <div class="parent-icon">
+              <ion-icon name="gift-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Serviço</div>
           </a>
+          <ul>
+            <li> <a href="component-alerts.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Listar
+              </a>
+            </li>
+
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../products/servicos">
-            <i class="material-symbols-rounded opacity-5">inventory</i>
-            <span class="nav-link-text ms-1">Serviços</span>
+        <li>
+          <a class="has-arrow" href="javascript:;">
+            <div class="parent-icon">
+              <ion-icon name="leaf-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Categorias</div>
           </a>
+          <ul>
+            <li> <a href="icons-line-icons.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Listar
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../billings/faturas">
-            <i class="material-symbols-rounded opacity-5">receipt</i>
-            <span class="nav-link-text ms-1">Faturas</span>
+        <li class="menu-label">Stock e Relatorio</li>
+        <li>
+          <a class="has-arrow" href="javascript:;">
+            <div class="parent-icon">
+              <ion-icon name="newspaper-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Relatorio</div>
           </a>
+          <ul>
+            <li> <a href="form-elements.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Vendas
+              </a>
+            </li>
+            <li> <a href="form-input-group.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Produtos
+              </a>
+            </li>
+            <li> <a href="form-layouts.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Imposto
+              </a>
+            </li>
+            <li> <a href="form-validations.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Stock
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../billings/proformas">
-            <i class="material-symbols-rounded opacity-5">receipt_long</i>
-            <span class="nav-link-text ms-1">Proformas</span>
+        <li>
+          <a class="has-arrow" href="javascript:;">
+            <div class="parent-icon">
+              <ion-icon name="server-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Stock</div>
           </a>
+          <ul>
+            <li> <a href="table-basic-table.html">
+                <ion-icon name="ellipse-outline"></ion-icon>Produtos
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../reports/relatorios">
-            <i class="material-symbols-rounded opacity-5">work_history</i>
-            <span class="nav-link-text ms-1">Relatorios</span>
+        <li>
+          <a class="has-arrow" href="javascript:;">
+            <div class="parent-icon">
+              <ion-icon name="lock-closed-sharp"></ion-icon>
+            </div>
+            <div class="menu-title">Saft</div>
           </a>
+          <ul>
+            <li> <a href="authentication-sign-in-basic.html" target="_blank">
+                <ion-icon name="ellipse-outline"></ion-icon>Gerar Saft
+              </a>
+            </li>
+          </ul>
         </li>
-        <li class="nav-item mt-3">
-          <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-5">Configurações</h6>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../pages/profile">
-            <i class="material-symbols-rounded opacity-5">person</i>
-            <span class="nav-link-text ms-1">Funcionarios</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="../pages/sign-up">
-            <i class="material-symbols-rounded opacity-5">assignment</i>
-            <span class="nav-link-text ms-1">Ajuda</span>
-          </a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link text-dark" href="../auth/logout">
-            <i class="material-symbols-rounded opacity-5">login</i>
-            <span class="nav-link-text ms-1">Logout</span>
-          </a>
-        </li>
-      </ul>
-    </div>
     
-  </aside>
+      </ul>
+      <!--end navigation-->
+    </aside>

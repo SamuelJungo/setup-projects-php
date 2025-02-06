@@ -1,7 +1,7 @@
 <?php
 class Conexao {
     private $host = 'localhost';
-    private $db_name = 'sistema_faturacao';
+    private $db_name = 'consultoria';
     private $username = 'root';
     private $password = '';
     public $conexao;
